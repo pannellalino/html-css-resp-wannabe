@@ -137,15 +137,15 @@ img {
 }
 
 @media (max-width:480px) {
-    main .row{
+    section .row{
         flex-direction: column;
         align-items: center;
     }
-    main .row .col{
+    section .row .col{
         width: 90%;
         margin-bottom: 50px;
     }
-    main .row .col img{
+    section .row .col img{
         height: 100%;
     }
 }

@@ -137,21 +137,15 @@ img {
 }
 
 @media (max-width:480px) {
-    .lessons .row,
-    .steps .row,
-    .why-us .row {
+    main .row{
         flex-direction: column;
         align-items: center;
     }
-    .lessons .row .col,
-    .steps .row .col,
-    .why-us .row .col{
+    main .row .col{
         width: 90%;
         margin-bottom: 50px;
     }
-    .lessons .row .col img,
-    .steps .row .col img,
-    .why-us .row .col img{
+    main .row .col img{
         height: 100%;
     }
 }
